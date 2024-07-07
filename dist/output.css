@@ -698,6 +698,10 @@ html {
   height: 0.25rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .w-8{
   width: 2rem;
 }
@@ -742,6 +746,10 @@ html {
 
 .justify-end{
   justify-content: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .gap-2{
@@ -805,6 +813,10 @@ html {
   padding-right: 1rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .text-right{
   text-align: right;
 }
@@ -816,6 +828,10 @@ html {
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .italic{
@@ -893,6 +909,10 @@ html {
 
 .group.open .group-open\:-top-2{
   top: -0.5rem;
+}
+
+.group.open .group-open\:block{
+  display: block;
 }
 
 .group.open .group-open\:rotate-45{
